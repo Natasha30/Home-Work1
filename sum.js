@@ -21,3 +21,24 @@ var result = arr.reduce(function(sum, current) {
 }, 0);
 
 result ; 
+
+
+
+
+var array = [4,3,1,6,-1,5,4];
+var max = getMaxValue(array);
+var min = getMinValue(array);
+{   var max = array[0]; 
+    for (var i = 0; i < array.length; i++) 
+    { 
+    if (max < array[i]) max = array[i]; 
+    } 
+    console.log(max);
+}
+{   var min = array[0];
+    for (var i = 0; i < array.length; i++) 
+    {
+    if (min > array[i]) min = array[i];
+    }
+    console.log(min);
+ }
