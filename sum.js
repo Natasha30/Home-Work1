@@ -15,3 +15,9 @@ for (var i = 0; i < array.length; i++)
  arraySum(array);
 
 
+ var arr = [4,3,1,6,-1,5,4]
+var result = arr.reduce(function(sum, current) {
+  return sum + current;
+}, 0);
+
+result ; 
