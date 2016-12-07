@@ -42,3 +42,13 @@ var min = getMinValue(array);
     }
     console.log(min);
  }
+
+
+
+
+ var array = [4,3,1,6,-1,5,4];
+for (var i = 0; i< array.length ; i++)
+ {
+    if (array[i]%2 ==0)
+        console.log(array[i])
+}
